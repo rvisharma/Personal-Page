@@ -1,6 +1,6 @@
 {
-  "name": "Ravi Sharma",
+  "name": "Project Showcase",
   "tagline": "Github profile page",
-  "body": "# Welcome..\r\n\r\n## Site under construction..\r\n\r\n---\r\n\r\ntill then, you can check out my projects.\r\n* *Navgrah* - Astrology Web Application - ([Demo](http://navgrah.rvisharma.online)) ([Source](https://github.com/rvisharma/navgrah-webapp))",
+  "body": "# Welcome\r\n\r\n## Site under construction..\r\n\r\n---\r\n\r\ntill then, you can check out my projects.\r\n* *Navgrah* - Astrology Web Application - ([Demo](http://navgrah.rvisharma.online)) ([Source](https://github.com/rvisharma/navgrah-webapp))\r\n  - HTML5, CSS, Bootstrap\r\n  - Typescript\r\n  - AngularJS\r\n  - UnderscoreJS\r\n  - Webpack",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
