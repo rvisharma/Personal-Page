@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: 'Fira Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #333;
+  color: #222;
   line-height: 1.5;
 }
 *::before,
@@ -9,29 +9,120 @@
   box-sizing: inherit;
 }
 
-.nav {
-  font-size: 1.5rem;
+.body {
+  min-height: 100vh;
+}
+.strike {
+  text-decoration: line-through;
 }
 
-.nav__list {
+.center {
+  text-align: center;
+}
+
+.site-header {
+  border-bottom: 2px solid #666;
+  margin-bottom: 2rem;
+}
+
+.site-header {
+  font-size: 3rem;
+  margin: 0;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 0.3rem;
+}
+
+.site-header span {
+  font-size: 1rem;
+}
+
+.site-wrapper {
+  width: 90%;
+  margin: 0 auto 1rem;
+  max-width: 35rem;
+}
+
+/* About */
+.about {
+  margin-top: 10px;
+  padding: 10px;
+  border: 0.225rem solid #666;
+  border-radius: 999em; /* pill */
+}
+
+.about__section p {
+  margin: 0.625rem 0;
+}
+
+.about__section .dagger {
+  width: 2rem;
+}
+
+.about__header,
+.online-presence__header,
+.skill__header {
+  letter-spacing: 0.3rem;
+}
+
+/* Online Presence Section */
+
+.online-presence {
+  margin-bottom: 1rem;
+}
+
+.online-presence__list {
+  list-style: none;
   margin: 0;
   padding: 0;
-  list-style: none;
-
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  /* align-items: center; */
-  /* justify-content: center; */
 }
 
-.nav__list-item {
-  flex: 1 1 0;
+.online-presence__list-item {
+  flex: 1 1 100%;
+  border-bottom: 0.125rem solid #555;
+  font-size: 1.6rem;
+  padding: 1rem 1.5rem;
+}
+
+.online-presence__list-item a {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill {
+  /* margin-bottom: 1rem; */
+  padding: 1.5rem 0;
+  border-bottom: 0.325rem solid #333;
+  border-radius: 1rem;
+}
+
+.skill__header {
   text-align: center;
-  border: 1px solid;
-  padding: 0.25rem;
+  margin-bottom: 1.2rem;
 }
 
-.nav__list-item.logo {
-  flex-basis: 100%;
+.skill__header h1 {
+  margin: 0;
+}
+
+.skill__list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 1.5rem;
+  justify-content: center;
+}
+
+.skill__list-item {
+  padding: 0.125rem 1.5rem;
+  border: 1px solid;
+  border-radius: 999rem;
+  margin: 0.325rem;
 }
