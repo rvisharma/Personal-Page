@@ -1,0 +1,24 @@
+{
+  "name": "rvisharma.github.io",
+  "version": "1.0.0",
+  "keywords": [
+    "Ravi Sharma",
+    "rvisharma",
+    "personal",
+    "blog"
+  ],
+  "description": "personal site",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rvisharma/rvisharma.github.io.git"
+  },
+  "author": "Ravi Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rvisharma/rvisharma.github.io/issues"
+  },
+  "homepage": "https://rvisharma.github.io",
+  "devDependencies": {}
+}
