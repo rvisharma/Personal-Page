@@ -4,8 +4,8 @@
     "description": "Github Portfolio Page",
     "icons": [],
     "start_url": "",
-    "background_color": "",
+    "background_color": "#FFFFFF",
     "display": "browser",
     "scope": "",
-    "theme_color": ""
+    "theme_color": "#FFFFFF"
   }
