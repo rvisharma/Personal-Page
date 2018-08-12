@@ -1,11 +1,22 @@
 {
-    "short_name": "RaviSharma",
+    "short_name": "Ravi",
     "name": "Ravi Sharma",
     "description": "Github Portfolio Page",
-    "icons": [],
+    "icons": [
+      {
+        "src": "icons/favicon-256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/favicon-1024.png",
+        "sizes": "1024x1024",
+        "type": "image/png"
+      }
+    ],
     "start_url": "",
-    "background_color": "#FFFFFF",
+    "background_color": "#000000",
     "display": "browser",
     "scope": "",
-    "theme_color": "#FFFFFF"
+    "theme_color": "#000000"
   }
